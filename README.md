@@ -8,7 +8,7 @@
         [Historical Museum](https://assetstore.unity.com/packages/3d/environments/historic/historical-museum-251130)
 - FastAPI 서버가 열려있어야만 UseCase가 작동을 함 (현재는 법인카드 지원이 끊겨서 서버가 닫혀있음)
 - S3의 버킷 이름과 Access Key, Secret Key가 원래는 코드 내에 있었으나, 보안 상의 이유로 현재는 지워둠 (현재는 법인카드 지원이 끊겨서 S3가 닫혀있음)
-- S3에 내가 원하는 PDF가 업로드 되어있어야 하며, 이를 Unity 내에서 명시해주어야 함
+- S3에 내가 원하는 PDF가 업로드 되어있어야 하며, 이를 Unity 내에서 명시해주어야 함 (하단에 사진)
 <img width="1710" alt="스크린샷 2024-11-03 오후 6 02 11" src="https://github.com/user-attachments/assets/052e8029-b272-41b3-8d22-4678b7ce1283">
 
 ## Unity의 디렉토리
@@ -59,13 +59,13 @@
 
 ## Unity 환경설정 / 설치된 Package들
 
-### Build Settings
+### Build Settings (하단에 사진)
 <img width="636" alt="스크린샷 2024-11-03 오후 5 52 18" src="https://github.com/user-attachments/assets/78bff230-ac76-4cdf-afa8-7c166387ab00">
 
-### Project Settings > Player
+### Project Settings > Player (하단에 사진)
 <img width="1399" alt="스크린샷 2024-11-03 오후 5 52 46" src="https://github.com/user-attachments/assets/a5e704bc-9080-40db-8190-c02944a496d3">
 
-### 다운받은 / 설치한 Unity Package 리스트
+### 다운받은 / 설치한 Unity Package 리스트 (하단에 사진 2장)
 <img width="424" alt="스크린샷 2024-11-03 오후 5 53 45" src="https://github.com/user-attachments/assets/dcad497f-74ff-4c3a-a53a-2bdd68fc0cb7">
 <img width="427" alt="스크린샷 2024-11-03 오후 5 53 53" src="https://github.com/user-attachments/assets/19c82960-178a-486a-a023-1143ed1e0b7d">
 
