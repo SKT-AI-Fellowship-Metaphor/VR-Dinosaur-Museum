@@ -1,5 +1,6 @@
 # VR-Dinosaur-Museum Unity Project
-- 총 파일 크기: 9.26GB (그러나 용량 제한으로 인해 Assets/Scripts에 해당하는 파일만 Github에 업로드하였습니다.)
+- 총 파일 크기: 9.26GB (FastAPI에 관련된 코드는 포함되어있지 않습니다!)
+- 용량 제한으로 인해 Assets/Scripts에 해당하는 파일만 Github에 업로드하였습니다.
 - **Unity 버전: 2022.3.49f1 (Apple Silicon, LTS)**
 - 반드시 유니티 버전이 매칭되어야 하고, Android로 빌드되어야 하고, 환경설정이 맞아야 하며, Package를 모두 다운받아야 함 (하단에 정리되어있음)
 - 메인 카메라는 Meta Quest의 카메라를 대신해서 사용하고 있음, 그러나 MAC에서도 테스팅 가능
@@ -65,7 +66,7 @@
 <img width="636" alt="Build Settings를 Android로 설정한 사진" src="https://github.com/user-attachments/assets/78bff230-ac76-4cdf-afa8-7c166387ab00">
 
 ### Project Settings > Player (하단에 사진)
-<img width="1399" alt="Project Settings > Player 사진" src="https://github.com/user-attachments/assets/a5e704bc-9080-40db-8190-c02944a496d3">
+<img width="1399" alt="Project Settings에서 Player Settings 사진" src="https://github.com/user-attachments/assets/a5e704bc-9080-40db-8190-c02944a496d3">
 
 ### 다운받은 / 설치한 Unity Package 리스트 (하단에 사진 2장)
 <img width="424" alt="설치한 Unity Package 사진 (1)" src="https://github.com/user-attachments/assets/dcad497f-74ff-4c3a-a53a-2bdd68fc0cb7">
