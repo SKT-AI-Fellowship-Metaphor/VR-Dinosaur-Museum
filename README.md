@@ -1,4 +1,111 @@
 # VR-Dinosaur-Museum Unity Project
+![image](https://github.com/user-attachments/assets/c4d5d2c0-c56a-4595-b20d-8eb61e123d92)
+
+**Edge AI 기반 XR 교육 플랫폼**
+
+XR 디바이스에서 Edge AI 기술을 활용하여 기존 교육의 한계를 극복하고 몰입감 있는 학습 경험을 제공하는 교육 플랫폼입니다.
+
+## 📚 프로젝트 개요
+
+### 기존 학습의 한계점
+- **2D 학습의 한계**: 복잡한 개념이나 구조를 이해하는 데 제한적
+- **정적인 학습 환경**: 일방향적 지식 전달로 인한 참여도 저하
+- **개인화 부족**: 학습자의 속도와 스타일을 고려하지 못하는 획일적 교육
+
+### 주요 기능
+1. **3D 모델 생성**
+   - 2D 교육 자료의 3D 변환
+   - 실시간 오브젝트 조작 기능
+   
+2. **음성 기반 상호작용**
+   - 자연어 음성 명령 처리
+   - 실시간 피드백 제공
+   
+3. **AI 학습 도우미**
+   - LLM 기반 실시간 질의응답
+   - 개인화된 학습 가이드 제공
+
+## 🛠 기술 스택
+
+### 개발 환경
+- Unity 2022.3.49f1 Apple Silicon
+- Meta Quest All-in-one SDK
+- FastAPI, AWS S3, AWS EC2
+- Wit.ai (for STT)
+- MeshyAI
+
+### 핵심 기술
+1. **엣지 컴퓨팅**
+   - Speech-to-Text (SST)
+   - LLM Agent
+   - Voice SDK
+   
+2. **서버 처리**
+   - MeshyAI를 통한 3D Reconstruction
+   - 멀티소스 데이터 통합
+   - 위키 크롤링 & RAG를 활용한 sLLM의 답변변
+
+## 💡 주요 연구 내용
+
+### 1. 3D 모델 생성 고도화
+- **문제점 해결**
+  - U2-Net 활용한 아티팩트 제거
+  - RGBA 포맷 기반 투명 배경 처리
+  - 앨리어싱 현상 개선
+  
+- **적용 기술**
+  - cv2.INTER_AREA 알고리즘
+  - 8비트 깊이 투명도 정보 보존
+  - Mipmapping / Anisotropic Filtering
+
+### 2. LLM Agent 개발
+- **멀티소스 데이터 통합**
+  - sLLM, 위키 크롤링, RAG 기반 답변 통합
+  - 토큰 최적화 (30,000 → 1,000 토큰)
+  
+- **답변 품질 향상**
+  - 위키 페이지 검색 최적화
+  - 컨텍스트 기반 답변 추출
+
+### 3. 음성 인식 시스템
+- **Wit.ai 활용**
+  - 97% 이상의 인식 정확도
+  - 200개 문장으로 효과적인 파인튜닝
+  - Speech-to-Text 왜곡 대응 데이터 증강
+
+## 🎮 구현 세부사항
+
+### Unity 환경 구축
+- **PDF 뷰어 개발**
+  - PDF 파일 이미지 파싱
+  - 페이지 네비게이션 구현
+  
+- **최적화**
+  - Built-in Shader 적용
+  - Meta Quest 성능 최적화
+
+### VoiceSDK 통합
+- Meta Voice SDK 활용
+- 자연어 명령 처리 시스템
+- 실시간 음성 인식 및 실행
+
+## 🔮 향후 발전 방향
+
+1. **온디바이스 3D 생성**
+   - 온디바이스 NeRF 기술 도입
+   - 실시간 3D 모델 생성 고도화
+
+2. **성능 최적화**
+   - Edge AI 처리 효율화
+   - 메모리 사용량 최적화
+
+3. **사용자 경험 개선**
+   - 인터랙션 다양화
+   - UI/UX 개선
+
+
+
+# How to open & activate Untiy Project
 - 총 파일 크기: 9.26GB (FastAPI에 관련된 코드는 포함되어있지 않습니다!)
 - 용량 제한으로 인해 Assets/Scripts에 해당하는 파일만 Github에 업로드하였습니다.
 - **Unity 버전: 2022.3.49f1 (Apple Silicon, LTS)**
